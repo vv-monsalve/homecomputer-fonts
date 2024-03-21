@@ -50,8 +50,7 @@ jobs:
     - name: proof
       run: make proof
     - name: setup site
-      run: mkdir out && cp scripts/index.html out/index.html && cp Sixtyfour/scripts/index.html out/index-sixtyfour.html && cp Workben
-ch/scripts/index.html out/index-workbench.html
+      run: mkdir out && cp scripts/index.html out/index.html && cp Sixtyfour/scripts/index.html out/index-sixtyfour.html && cp Workbench/scripts/index.html out/index-workbench.html
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: ${{ github.ref == 'refs/heads/main' }}
