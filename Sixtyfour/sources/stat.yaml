@@ -9,7 +9,6 @@
     value: -27
   - name: Close
     value: 0
-    # flags: 2
   - name: Touching
     value: 21
   - name: Overlapping
@@ -37,7 +36,7 @@
   - name: Left
     value: -100
   - name: Right
-    value: -100
+    value: +100
 - name: Vertical Element Alignmet
   tag: YELA
   values:
@@ -47,4 +46,4 @@
   - name: Top
     value: -100
   - name: Bottom
-    value: -100
+    value: +100
