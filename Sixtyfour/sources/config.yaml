@@ -46,7 +46,7 @@ stat:
       value: 100
 recipeProvider: googlefonts
 recipe:
-  ../fonts/variable/Sixtyfour-Color[BLED,SCAN,XELA,YELA].ttf:
+  ../fonts/variable/Sixtyfour-Convergence[BLED,SCAN,XELA,YELA].ttf:
   - source: Sixtyfour.glyphs
   - fontmake_args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       --keep-overlaps
@@ -56,4 +56,4 @@ recipe:
   - operation: paintcompiler
     args: --add-axis "XELA:-100:0:100:Horizontal Element Alignment" --add-axis "YELA:-100:0:100:Vertical Element Alignment"
   - operation: rename
-    name: Sixtyfour Color
+    name: Sixtyfour Convergence
